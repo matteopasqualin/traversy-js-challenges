@@ -13,13 +13,11 @@ function removeDuplicatesALT(arrayValues) {
 }
 
 function removeDuplicates(arrayValues) {
-  let duplicates = [];
-  let newArray = [];
+  const newArray = [];
   for (let i = 0; i < arrayValues.length; i++) {
-    if (duplicates.indexOf(arrayValues[i]) < 0) {
+    if (newArray.indexOf(arrayValues[i]) < 0) {
       newArray.push(arrayValues[i]);
     }
-    duplicates.push(arrayValues[i]);
   }
   return newArray;
 }
