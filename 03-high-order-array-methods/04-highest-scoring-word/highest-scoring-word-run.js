@@ -1,5 +1,5 @@
 const highestScoringWord = require('./highest-scoring-word');
 
-const result = highestScoringWord('Hello my name is xavier');
+const result = highestScoringWord('take me to semynak');
 
 console.log(result);
